@@ -35,7 +35,11 @@ return result[0]
 end
 
 def words_with_b(words)
-  words.collect do |word| word.start_with? "b"
+  newarr=[]
+  words.each do |word| word.start_with? "b"
+    newarr << word
   end
+return newarr
 end
+
 p words_with_b words=["besa", "ada","daas"]
