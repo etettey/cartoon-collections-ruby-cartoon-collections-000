@@ -46,4 +46,4 @@ end
 p words_with_b words=["besa", "ada","daas"]
 
 
-def summon_captain_planet(planeteer_calls); planeteer_calls.collect do |element|;  element.capitalize;  "#{element}!";  end;  end
+def summon_captain_planet(planeteer_calls); planeteer_calls.collect do |element|;  element = element.capitalize;  "#{element}!";  end;  end
