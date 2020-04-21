@@ -33,3 +33,9 @@ def find_the_cheese(snacks)   # code an argument here
 end
 return result[0]
 end
+
+def words_with_b(words)
+  words.collect do |word| word.start_with? "b"
+  end
+end
+p words_with_b words=["besa", "ada","daas"]
