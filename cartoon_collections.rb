@@ -36,9 +36,10 @@ end
 
 def words_with_b(words)
   newarr=[]
-  words.each do |word| word.start_with? "b"
+  words.each do |word| if word.start_with? ("b")
     newarr << word
   end
+end
 return newarr
 end
 
