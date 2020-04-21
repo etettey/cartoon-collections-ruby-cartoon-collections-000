@@ -6,13 +6,13 @@ def roll_call_dwarves(names)  # code an argument here
       end
 end
 
-def summon_captain_planet (planeteer_calls)# code an argument here
-  # Your code here
-   planeteer_calls.collect do |element| "#{element}!".capitalize
-
-    end
-end
-
+# def summon_captain_planet (planeteer_calls)# code an argument here
+#   # Your code here
+#    planeteer_calls.collect do |element| "#{element}!".capitalize
+# 
+#     end
+# end
+# 
 def long_planeteer_calls (various_words)     # code an argument here
   # Your code here
   various_words.each do |word| if word.length > 4
@@ -44,3 +44,6 @@ return newarr
 end
 
 p words_with_b words=["besa", "ada","daas"]
+
+
+def summon_captain_planet(planeteer_calls); planeteer_calls.collect do |element|;  element.capitalize; return #{element}!;  end;  end
